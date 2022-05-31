@@ -11,7 +11,7 @@ spec:
     repoURL: https://github.com/mrdodz/argocd.git
     targetRevision: HEAD
   destination:
-    namespace: argocd
+    namespace: nginx
     server: https://kubernetes.default.svc
   project: default
   syncPolicy:
