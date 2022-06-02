@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
   - nginx.yaml
   - multitool.yaml
+  - argo-stuff.yaml
 
 commonLabels:
   owner: dodz
