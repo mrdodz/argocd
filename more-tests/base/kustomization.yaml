@@ -4,7 +4,6 @@ kind: Kustomization
 resources:
   - nginx.yaml
   - multitool.yaml
-  - secrets/sealed-ape-secret.yaml
 
 commonLabels:
   owner: dodz
